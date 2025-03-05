@@ -36,9 +36,7 @@ public class Tugas1 {
                 System.out.println("Login Mahasiswa berhasil!");
                 System.out.println("Nama: " + nama);
                 System.out.println("NIM: " + nim);
-            } else {
-                System.out.println("Login gagal! Nama atau NIM salah.");
-            }
+            } else System.out.println("Login gagal! Nama atau NIM salah.");
         } else {
             System.out.println("Pilihan tidak valid.");
         }
